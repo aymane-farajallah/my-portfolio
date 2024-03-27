@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import { Link as LinkR } from 'react-router-dom';
-import styled, { useTheme } from "styled-components";
+import styled , {useTheme} from "styled-components";
 import { DiVisualstudio } from "react-icons/di";
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
@@ -166,11 +166,10 @@ const Navbar = () => {
         <NavContainer>
 
             <NavLogo to="/">
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20px;', cursor: 'pointer' }} >
             <DiVisualstudio size="3rem" /> <Span>Portfolio</Span>        
           </a>
             </NavLogo>
-
             <MobileIcon>
             <FaBars 
             onClick={() => {
